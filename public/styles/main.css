@@ -1,0 +1,48 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #818181, #d9d9d9); /* Desaturated gradient background */
+}
+
+.quote-container {
+    text-align: center;
+    padding: 30px;
+    flex-grow: 1; /* Allow the quote container to take up all available vertical space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#kanye-quote {
+    font-size: 56px; /* Larger font size */
+    font-weight: bold; /* Bolder text */
+    color: #333; /* Dark text color */
+    margin: 0;
+    line-height: 1.6;
+    white-space: pre-line; /* Allows for line breaks */
+}
+
+#get-new-quote {
+    background: linear-gradient(to right, #ddd, #ccc); /* Subtle grey gradient background */
+    color: #000; /* Black text color */
+    padding: 15px 30px; /* Padding for the button */
+    font-size: 24px; /* Font size for the button text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border-radius for a rounded look */
+    cursor: pointer; /* Add pointer cursor on hover */
+    margin-top: 0px; /* Add some space between the quote and the button */
+    margin-bottom: 60px; /* Add margin on the bottom */
+
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    transition: background 0.3s ease-in-out; /* Add smooth transition effect */
+}
+
+#get-new-quote:hover {
+    background: linear-gradient(to right, #ccc, #ddd); /* Invert gradient on hover */
+}
