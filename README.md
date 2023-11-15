@@ -1,0 +1,2 @@
+# ye
+kanye quotes
